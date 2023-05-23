@@ -225,92 +225,59 @@
                                     'desc'       => __( 'From here you can change logo part of your website.', 'redux-framework-demo' ),
                                     'icon'       => 'el el-bulb',
                                     'fields'     => array(
-                                                        // array(
-                                                        //     'id'       => 'header-note',
-                                                        //     'type'     => 'textarea',
-                                                        //     'title'    => __( 'Header Note', 'redux-framework-demo' ),
-                                                        //     'subtitle'     => __( 'Update header welcome note.', 'redux-framework-demo' ),
-                                                        // ),
+                                                      
                                                         array(
-                                                            'id'       => 'header-facebook-icon',
+                                                            'id'       => 'header-whatsapp-logo',
                                                             'type'     => 'text',
-                                                            'title'    => __( 'Header Facebook Icon', 'redux-framework-demo' ),
-                                                            'subtitle'     => __( 'Upload Facebook logo for the header of your website.', 'redux-framework-demo' ),
+                                                            'title'    => __( 'Header Whatsapp Logo', 'redux-framework-demo' ),
+                                                            'subtitle'     => __( 'Upload whatsapp logo for the header of your website.', 'redux-framework-demo' ),
+                                                        ),
+                                                        array(
+                                                            'id'       => 'header-contact-no',
+                                                            'type'     => 'text',
+                                                            'title'    => __( 'Header Conatct No.', 'redux-framework-demo' ),
+                                                            'subtitle'     => __( 'Update header whatsapp url.', 'redux-framework-demo' ),
+                                                        ),
+                                                        array(
+                                                            'id'       => 'header-email-icon',
+                                                            'type'     => 'text',
+                                                            'title'    => __( 'Header Email Icon', 'redux-framework-demo' ),
+                                                            'subtitle'     => __( 'Update header whatsapp url.', 'redux-framework-demo' ),
+                                                        ),
+
+                                                        array(
+                                                            'id'       => 'header-email-address',
+                                                            'type'     => 'text',
+                                                            'title'    => __( 'Header Email Address', 'redux-framework-demo' ),
+                                                            'subtitle'     => __( 'Update header whatsapp url.', 'redux-framework-demo' ),
+                                                        ),
+                                                        array(
+                                                            'id'       => 'header-whatsapp-url',
+                                                            'type'     => 'text',
+                                                            'title'    => __( 'Header Whatsapp URL', 'redux-framework-demo' ),
+                                                            'subtitle'     => __( 'Update header whatsapp url.', 'redux-framework-demo' ),
                                                         ),array(
-                                                            'id'       => 'header-Facebook-url',
+                                                            'id'       => 'header-whatsapp-text',
                                                             'type'     => 'text',
-                                                            'title'    => __( 'Header Facebook URL', 'redux-framework-demo' ),
-                                                            'subtitle'     => __( 'Update header facebook url.', 'redux-framework-demo' ),
-                                                        ),array(
-                                                            'id'       => 'header-twitter-icon',
-                                                            'type'     => 'text',
-                                                            'title'    => __( 'Header Twitter Icon', 'redux-framework-demo' ),
-                                                            'subtitle'     => __( 'Upload Twitter logo for the header of your website.', 'redux-framework-demo' ),
-                                                        ),array(
-                                                            'id'       => 'header-twitter-url',
-                                                            'type'     => 'text',
-                                                            'title'    => __( 'Header Twitter URL', 'redux-framework-demo' ),
-                                                            'subtitle'     => __( 'Update header Twitter url.', 'redux-framework-demo' ),
-                                                        ),array(
-                                                            'id'       => 'header-youtube-icon',
-                                                            'type'     => 'text',
-                                                            'title'    => __( 'Header youtube Icon', 'redux-framework-demo' ),
-                                                            'subtitle'     => __( 'Upload Youtube logo for the header of your website.', 'redux-framework-demo' ),
-                                                        ),array(
-                                                            'id'       => 'header-youtube-url',
-                                                            'type'     => 'text',
-                                                            'title'    => __( 'Header Youtube URL', 'redux-framework-demo' ),
-                                                            'subtitle'     => __( 'Update header youtube url.', 'redux-framework-demo' ),
-                                                        ),array(
-                                                            'id'       => 'header-linkedin-icon',
-                                                            'type'     => 'text',
-                                                            'title'    => __( 'Header Linkedin Icon', 'redux-framework-demo' ),
-                                                            'subtitle'     => __( 'Upload linkedin logo for the header of your website.', 'redux-framework-demo' ),
-                                                        ),array(
-                                                            'id'       => 'header-linkedin-url',
-                                                            'type'     => 'text',
-                                                            'title'    => __( 'Header linkedin URL', 'redux-framework-demo' ),
-                                                            'subtitle'     => __( 'Update header linkedin url.', 'redux-framework-demo' ),
-                                                        ),array(
-                                                            'id'       => 'header-sales-text',
-                                                            'type'     => 'text',
-                                                            'title'    => __( 'Header sales Text', 'redux-framework-demo' ),
-                                                            'subtitle'     => __( 'Update header sales text.', 'redux-framework-demo' ),
-                                                        ),array(
-                                                            'id'       => 'header-sales-url',
-                                                            'type'     => 'text',
-                                                            'title'    => __( 'Header sales url', 'redux-framework-demo' ),
-                                                            'subtitle'     => __( 'Update header sales url.', 'redux-framework-demo' ),
+                                                            'title'    => __( 'Header Whatsapp Text', 'redux-framework-demo' ),
+                                                            'subtitle'     => __( 'Update header whatsapp text.', 'redux-framework-demo' ),
                                                         ),array(
                                                             'id'       => 'header-logo',
                                                             'type'     => 'media',
                                                             'title'    => __( 'Logo', 'redux-framework-demo' ),
                                                             'subtitle'     => __( 'Upload logo for your website.', 'redux-framework-demo' ),
-                                                        ),array(
-                                                            'id'       => 'header-logo-url',
-                                                            'type'     => 'text',
-                                                            'title'    => __( 'header-logo-url', 'redux-framework-demo' ),
-                                                            'subtitle'     => __( 'header-logo-url.', 'redux-framework-demo' ),
-                                                        ),array(
-                                                            'id'       => 'header-contact-no',
-                                                            'type'     => 'text',
-                                                            'title'    => __( 'Header Contact No', 'redux-framework-demo' ),
-                                                            'subtitle'     => __( 'Contact No for your website.', 'redux-framework-demo' ),
-                                                        ),array(
-                                                            'id'       => 'header-email-address',
-                                                            'type'     => 'text',
-                                                            'title'    => __( 'Header Email Address', 'redux-framework-demo' ),
-                                                            'subtitle'     => __( 'Email Address for your website.', 'redux-framework-demo' ),
-                                                        ),array(
+                                                        ),
+                                                        array(
                                                             'id'       => 'header-button-link',
                                                             'type'     => 'text',
                                                             'title'    => __( 'Header Button Link', 'redux-framework-demo' ),
-                                                            'subtitle'     => __( 'Button for Admission.', 'redux-framework-demo' ),
-                                                        ),array(
+                                                            'subtitle'     => __( 'Upload logo for your website.', 'redux-framework-demo' ),
+                                                        ),
+                                                        array(
                                                             'id'       => 'header-button-text',
                                                             'type'     => 'text',
                                                             'title'    => __( 'Header Button Text', 'redux-framework-demo' ),
-                                                            'subtitle'     => __( 'Button Text for Admission.', 'redux-framework-demo' ),
+                                                            'subtitle'     => __( 'Upload logo for your website.', 'redux-framework-demo' ),
                                                         )
                                                     )
                                 ) );
@@ -330,86 +297,95 @@
                                     'subsection' => true,
                                     'desc'       => __( 'From here you can change main section of the footer.', 'redux-framework-demo' ),
                                     'icon'       => 'el el-credit-card',
-                                    'fields' => array(                          
+                                    'fields' => array(
+                                                    array(
+                                                        'id'       => 'footer-subscription-title',
+                                                        'type'     => 'text',
+                                                        'title'    => __( 'Footer Subscription Title', 'redux-framework-demo' ),
+                                                        'subtitle'     => __( 'Update footer Subscription Title.', 'redux-framework-demo' ),
+                                                    ),
+                                                    array(
+                                                        'id'       => 'footer-subscription-form',
+                                                        'type'     => 'text',
+                                                        'title'    => __( 'Footer Subscription Form', 'redux-framework-demo' ),
+                                                        'subtitle'     => __( 'Update footer Subscription Form.', 'redux-framework-demo' ),
+                                                    ),
                                                     array(
                                                         'id'       => 'footer-logo',
                                                         'type'     => 'media',
                                                         'title'    => __( 'Footer Logo', 'redux-framework-demo' ),
-                                                        'subtitle'     => __( 'Upload Footer Logo for your website.', 'redux-framework-demo' ),
+                                                        'subtitle'     => __( 'Upload footer logo for your website.', 'redux-framework-demo' ),
                                                     ),
-                                                    
-                                                     
-										              array(
-                                                            'id'       => 'footer-facebook-icon',
-                                                            'type'     => 'text',
-                                                            'title'    => __( 'Footer Facebook Icon', 'redux-framework-demo' ),
-                                                            'subtitle'     => __( 'Upload Facebook logo for the footer of your website.', 'redux-framework-demo' ),
-                                                        ),array(
-                                                            'id'       => 'footer-Facebook-url',
-                                                            'type'     => 'text',
-                                                            'title'    => __( 'Footer Facebook URL', 'redux-framework-demo' ),
-                                                            'subtitle'     => __( 'Update footer facebook url.', 'redux-framework-demo' ),
-                                                        ),array(
-                                                            'id'       => 'footer-twitter-icon',
-                                                            'type'     => 'text',
-                                                            'title'    => __( 'Footer Twitter Icon', 'redux-framework-demo' ),
-                                                            'subtitle'     => __( 'Upload Twitter logo for the footer of your website.', 'redux-framework-demo' ),
-                                                        ),array(
-                                                            'id'       => 'footer-twitter-url',
-                                                            'type'     => 'text',
-                                                            'title'    => __( 'Footer Twitter URL', 'redux-framework-demo' ),
-                                                            'subtitle'     => __( 'Update Footer Twitter url.', 'redux-framework-demo' ),
-                                                        ),array(
-                                                            'id'       => 'Footer-youtube-icon',
-                                                            'type'     => 'text',
-                                                            'title'    => __( 'Footer youtube Icon', 'redux-framework-demo' ),
-                                                            'subtitle'     => __( 'Upload Youtube logo for the footer of your website.', 'redux-framework-demo' ),
-                                                        ),array(
-                                                            'id'       => 'footer-youtube-url',
-                                                            'type'     => 'text',
-                                                            'title'    => __( 'Footer Youtube URL', 'redux-framework-demo' ),
-                                                            'subtitle'     => __( 'Update footer youtube url.', 'redux-framework-demo' ),
-                                                        ),array(
-                                                            'id'       => 'footer-linkedin-icon',
-                                                            'type'     => 'text',
-                                                            'title'    => __( 'Footer Linkedin Icon', 'redux-framework-demo' ),
-                                                            'subtitle'     => __( 'Upload linkedin logo for the footer of your website.', 'redux-framework-demo' ),
-                                                        ),array(
-                                                            'id'       => 'footer-linkedin-url',
-                                                            'type'     => 'text',
-                                                            'title'    => __( 'Footer linkedin URL', 'redux-framework-demo' ),
-                                                            'subtitle'     => __( 'Update footer linkedin url.', 'redux-framework-demo' ),
-                                                        ),
-										
-										              array(
-                                                        'id'       => 'footer-Button-text',
+
+                                                    array(
+                                                        'id'       => 'footer-about',
+                                                        'type'     => 'textarea',
+                                                        'title'    => __( 'Footer About', 'redux-framework-demo' ),
+                                                        'subtitle'     => __( 'Update Footer About on your website.', 'redux-framework-demo' ),
+                                                    ),
+
+                                                    array(
+                                                        'id'       => 'footer-copyright',
+                                                        'type'     => 'textarea',
+                                                        'title'    => __( 'Copyright Text', 'redux-framework-demo' ),
+                                                        'subtitle'     => __( 'Update Copyright Text on your website.', 'redux-framework-demo' ),
+                                                    ),
+
+
+                                                    array(
+                                                        'id'       => 'footer-link-text-1',
                                                         'type'     => 'text',
-                                                        'title'    => __( 'Footer Button Text', 'redux-framework-demo' ),
-                                                        'subtitle'     => __( 'Update footer Button Text.', 'redux-framework-demo' ),
-                                                    )
-                                                    ,array(
-                                                        'id'       => 'footer-button-link-2',
+                                                        'title'    => __( 'Footer Link Text 1', 'redux-framework-demo' ),
+                                                        'subtitle'     => __( 'Update Link Text 1 on your website.', 'redux-framework-demo' ),
+                                                    ),
+                                                    array(
+                                                        'id'       => 'footer-button-text-1',
                                                         'type'     => 'text',
-                                                        'title'    => __( 'Footer Button Link 2', 'redux-framework-demo' ),
-                                                        'subtitle'     => __( 'Update footer Button Link.', 'redux-framework-demo' ),
-                                                    )
-                                                    ,array(
-                                                        'id'       => 'footer-Button-text-2',
+                                                        'title'    => __( 'Footer Button Text 1', 'redux-framework-demo' ),
+                                                        'subtitle'     => __( 'Update Footer Button Text 1 on your website.', 'redux-framework-demo' ),
+                                                    ),
+                                                    array(
+                                                        'id'       => 'footer-link-text-2',
+                                                        'type'     => 'text',
+                                                        'title'    => __( 'Footer Link Text 2', 'redux-framework-demo' ),
+                                                        'subtitle'     => __( 'Update Footer Link Text 2 on your website.', 'redux-framework-demo' ),
+                                                    ),
+                                                    array(
+                                                        'id'       => 'footer-button-text-2',
                                                         'type'     => 'text',
                                                         'title'    => __( 'Footer Button Text 2', 'redux-framework-demo' ),
-                                                        'subtitle'     => __( 'Update footer Button Text.', 'redux-framework-demo' ),
-                                                    )
-                                                    ,array(
-                                                        'id'       => 'footer-button-link-3',
+                                                        'subtitle'     => __( 'Update Footer Button Text 2 on your website.', 'redux-framework-demo' ),
+                                                    ),
+
+                                                    array(
+                                                        'id'       => 'footer-link-text-3',
                                                         'type'     => 'text',
-                                                        'title'    => __( 'Footer Button Link 3', 'redux-framework-demo' ),
-                                                        'subtitle'     => __( 'Update footer Button Link.', 'redux-framework-demo' ),
-                                                    )
-                                                    ,array(
-                                                        'id'       => 'footer-Button-text-3',
+                                                        'title'    => __( 'Footer Link Text 3', 'redux-framework-demo' ),
+                                                        'subtitle'     => __( 'Update Footer Button Text 1 on your website.', 'redux-framework-demo' ),
+                                                    ),
+
+                                                    array(
+                                                        'id'       => 'footer-button-text-3',
                                                         'type'     => 'text',
                                                         'title'    => __( 'Footer Button Text 3', 'redux-framework-demo' ),
-                                                        'subtitle'     => __( 'Update footer Button Text.', 'redux-framework-demo' ),
+                                                        'subtitle'     => __( 'Update Footer Button Text 1 on your website.', 'redux-framework-demo' ),
+                                                    ),
+
+                                                    array(
+                                                        'id'       => 'footer-whatsapp-logo',
+                                                        'type'     => 'media',
+                                                        'title'    => __( 'Footer Whatsapp Logo', 'redux-framework-demo' ),
+                                                        'subtitle'     => __( 'Upload whatsapp logo for the footer of your website.', 'redux-framework-demo' ),
+                                                    ),array(
+                                                        'id'       => 'footer-whatsapp-url',
+                                                        'type'     => 'text',
+                                                        'title'    => __( 'Footer Whatsapp URL', 'redux-framework-demo' ),
+                                                        'subtitle'     => __( 'Update footer whatsapp url.', 'redux-framework-demo' ),
+                                                    ),array(
+                                                        'id'       => 'footer-whatsapp-text',
+                                                        'type'     => 'text',
+                                                        'title'    => __( 'Footer Whatsapp Text', 'redux-framework-demo' ),
+                                                        'subtitle'     => __( 'Update footer whatsapp text.', 'redux-framework-demo' ),
                                                     )
                                                 )
                                 ) );
