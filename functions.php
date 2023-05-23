@@ -407,4 +407,21 @@ document.addEventListener( 'wpcf7mailsent', function( event ) {
 <?php
 }
 
+// this will deactive demo mode of reduxframework plugin and will not display and addvertisement
+
+if ( ! function_exists( 'redux_disable_dev_mode_plugin' ) ) {
+	function redux_disable_dev_mode_plugin( $redux ) {
+		if ( $redux->args['opt_name'] != 'redux_demo' ) {
+			$redux->args['dev_mode'] = false;
+		}
+	}
+
+	add_action( 'redux/construct', 'redux_disable_dev_mode_plugin' );
+}
+		
+		// load the theme's options 
+		if ( !isset( $redux_demo ) && file_exists( dirname(__FILE__) . '/framework/sample/config.php' ) ) {
+		require_once( dirname(__FILE__) . '/framework/sample/config.php' );
+		}
+
 
