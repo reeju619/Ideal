@@ -17,13 +17,13 @@ Ideal Main is a sophisticated web application designed to provide a comprehensiv
 - PHP (version [specify version])
 - MySQL (or another compatible database system)
 - Composer for PHP dependency management
-- [Any other specific requirements of the project]
 
 ### Step 1: Clone the Repository
 First, clone the repository to your local machine or server environment.
 ```bash
 git clone [repository URL]
 cd Ideal-main
+```
 ### Step 2: Install Dependencies
 Use Composer to install the required PHP dependencies.
 composer install
